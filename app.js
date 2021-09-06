@@ -22,7 +22,7 @@ const converter = (choice) => {
     case "p":
       return "Paper";
     case "s":
-      return "Scissor";
+      return "Scissors";
   }
 };
 const win = (userChoice, computerChoice) => {
